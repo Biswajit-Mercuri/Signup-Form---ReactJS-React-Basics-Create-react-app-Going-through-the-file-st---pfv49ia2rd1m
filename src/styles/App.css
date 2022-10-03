@@ -10,3 +10,41 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.main input{
+    padding: 10px;
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.main select{
+    padding: 10px;
+    width: 31.4%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.main button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #27aedb;
+    color: #000;
+    cursor: pointer;
+}
+.main button:hover{
+    background-color: #537c8a;
+    color: #fff;
+}
